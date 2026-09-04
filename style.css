@@ -1,0 +1,65 @@
+/* #region page */
+
+body{
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region header */
+
+.header{
+  box-sizing: border-box;
+  padding: 24px 20px 40px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/header-bg-mobile.png);
+
+  display: flex;
+  flex-direction: column;
+  /* gap: 129px; */
+}
+
+.header__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__icons{
+  display: flex;
+  gap: 24px;
+}
+
+.header__bottom{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+/* #endregion */
+
+/* #region icon */
+
+.icon{
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone{
+  background-image: url(icons/icon-phone.png);
+}
+
+.icon--menu{
+  background-image: url(icons/icon-burger-menu.png);
+}
+
+/* #endregion */
+
+/* #region footer */
+
+.footer{}
+
+/* #endregion */
