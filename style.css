@@ -1,69 +1,119 @@
-/* #region page */
-h1, h2,
-body{
+  /* #region page */
+.page{
+  font-size: 16px;
+  color: #fff;
   margin: 0;
   padding: 0;
   font-family: 'Cinzel', sans-serif;
+  }
+
+.page__body{
+  margin: 0;
+  }
+
+.page__menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  opacity: 0;
+  pointer-events: none;
+  }
+
+.page__menu:target{
+  opacity: 1;
+  pointer-events: all;
 }
 
-/* #endregion */
+  /* #endregion */
 
-/* #region header */
+  /* #region header */
 
-.header{
+  .header{
+    box-sizing: border-box;
+    padding: 24px 20px 0px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/header-bg-mobile.png);
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__icons{
+    display: flex;
+    gap: 24px;
+  }
+
+  .header__bottom{
+    margin-top: 180px;
+    text-align: center;
+  }
+
+  .header__title{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+  }
+
+  /* #endregion */
+
+/* #region menu */
+
+.menu{
   box-sizing: border-box;
   padding: 24px 20px 0px;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url(images/header-bg-mobile.png);
-
-  display: flex;
-  flex-direction: column;
+  background-color: #D12D35;
 }
 
-.header__top{
+.menu__top{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__icons{
-  display: flex;
-  gap: 24px;
-}
-
-.header__bottom{
-  font-weight: 700;
-  color: #fff;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 129px;
-  letter-spacing: -0.04em;
-}
 
 /* #endregion */
 
-/* #region icon */
+/* #region nav */
 
-.icon{
-  display: block;
-  height: 24px;
-  width: 24px;
-}
 
-.icon--phone{
-  background-image: url(icons/icon-phone.png);
-}
-
-.icon--menu{
-  background-image: url(icons/icon-burger-menu.png);
-}
 
 /* #endregion */
 
-/* #region footer */
+  /* #region icon */
 
-.footer{}
+  .icon{
+    display: block;
+    height: 24px;
+    width: 24px;
+  }
 
-/* #endregion */
+  .icon--phone{
+    background-image: url(icons/icon-phone.png);
+  }
+
+  .icon--menu{
+    background-image: url(icons/icon-burger-menu.png);
+  }
+
+  .icon--close{
+    background-image: url(images/icon-close.png);
+  }
+
+  /* #endregion */
+
+  /* #region footer */
+
+  .footer{}
+
+  /* #endregion */

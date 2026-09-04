@@ -1,6 +1,6 @@
 <!--#region head-->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -22,7 +22,7 @@
     ></script>
   </head>
   <!-- #endregion -->
-  <body>
+  <body class="page__body">
     <header class="header">
       <div class="header__top">
         <a href="#">
@@ -30,7 +30,7 @@
         </a>
         <div class="header__icons">
           <a href="#" class="icon icon--phone"></a>
-          <a href="#" class="icon icon--menu"></a>
+          <a href="#menu" class="icon icon--menu"></a>
         </div>
       </div>
       <div class="header__bottom">
@@ -38,7 +38,34 @@
       </div>
     </header>
 
-    <aside class="menu"></aside>
+    <aside class="page__menu menu" id="menu">
+      <div class="menu__top">
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about-us" class="nav__link">About Us</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#now-on-view" class="nav__link">Now on view</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#explore-online" class="nav__link">Explore Online</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
 
     <main class="main">
       <section class="museum-hours">
