@@ -73,19 +73,51 @@
   padding: 24px 20px 0px;
   height: 100vh;
   background-color: #D12D35;
+  font-weight: 700;
+  text-transform: uppercase ;
 }
 
 .menu__top{
   display: flex;
   align-items: center;
   justify-content: space-between;
+    margin-bottom: 40px;
 }
 
+.contacts{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.contacts__number{
+  display: flex;
+  flex-direction: column;
+}
+
+.number__title{
+  margin-bottom: 0;
+}
+
+.coll-to-order{
+  margin-top: 16px;
+}
 
 /* #endregion */
 
 /* #region nav */
 
+.nav__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #fff;
+}
 
 
 /* #endregion */
