@@ -88,9 +88,7 @@
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 0;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin: 32px 0 16px;
 }
 
 .contacts h2{
@@ -102,7 +100,7 @@
   flex-direction: column;
 }
 
-.phone__number, .call-to-order{
+.phone__number{
   color: #fff;
   text-decoration: none;
 }
@@ -117,8 +115,8 @@
 
   padding-bottom: 8px;
   border-bottom:1px solid #fff;
-  
-  font-style: 16px;
+
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -133,7 +131,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  color: #fff;
 }
 
 .nav__link{
