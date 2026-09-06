@@ -70,7 +70,7 @@
 
 .menu{
   box-sizing: border-box;
-  padding: 24px 20px 0px;
+  padding: 24px 20px 10px;
   height: 100vh;
   background-color: #D12D35;
   font-weight: 700;
@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .contacts{
@@ -90,6 +90,11 @@
   padding: 0;
   margin: 0;
   margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.contacts h2{
+    font-size: 16px;
 }
 
 .contacts__number{
@@ -97,12 +102,24 @@
   flex-direction: column;
 }
 
+.phone__number, .call-to-order{
+  color: #fff;
+  text-decoration: none;
+}
+
 .number__title{
   margin-bottom: 0;
 }
 
-.coll-to-order{
-  margin-top: 16px;
+.call-to-order{
+  display: block;
+  width: fit-content;
+
+  padding-bottom: 8px;
+  border-bottom:1px solid #fff;
+  
+  font-style: 16px;
+  text-decoration: none;
 }
 
 /* #endregion */
@@ -119,6 +136,11 @@
   color: #fff;
 }
 
+.nav__link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
 
 /* #endregion */
 
