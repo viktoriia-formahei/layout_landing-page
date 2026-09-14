@@ -1,0 +1,20 @@
+@mixin contentPaddingInline() {
+  padding-inline: 20px;
+
+  @media (min-width: 576px) {
+    padding-inline: 72px;
+  }
+}
+
+.top-bar {
+  padding-block: 24px;
+  @include contentPaddingInline;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 576px) {
+    padding-block: 64px;
+  }
+}
