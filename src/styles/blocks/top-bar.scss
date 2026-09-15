@@ -1,12 +1,12 @@
 .top-bar {
-  @include contentPaddingInline;
+  @include content-padding-inline;
 
-  padding-block: 24px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding-block: 24px;
 
-  @include onTablet {
+  @include on-tablet {
     padding-block: 64px;
   }
 }
