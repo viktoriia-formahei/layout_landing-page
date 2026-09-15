@@ -1,6 +1,10 @@
+@import './blocks/utils/variables.scss';
+@import './blocks/utils/mixins';
+
 @import 'blocks/header';
 @import 'blocks/icon';
 @import 'blocks/menu';
 @import 'blocks/nav';
 @import 'blocks/page';
 @import 'blocks/top-bar';
+

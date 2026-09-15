@@ -6,12 +6,12 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    color: #fff;
+    color: $main-text-color;
   }
 
   &__link{
     text-decoration: none;
-    color: #fff;
+    color: $main-text-color;
     font-size: 22px;
   }
 }

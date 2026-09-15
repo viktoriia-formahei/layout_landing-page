@@ -1,20 +1,12 @@
-@mixin contentPaddingInline() {
-  padding-inline: 20px;
-
-  @media (min-width: 576px) {
-    padding-inline: 72px;
-  }
-}
-
 .top-bar {
-  padding-block: 24px;
   @include contentPaddingInline;
 
+  padding-block: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @media (min-width: 576px) {
+  @include onTablet {
     padding-block: 64px;
   }
 }
